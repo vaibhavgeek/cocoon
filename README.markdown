@@ -197,7 +197,10 @@ In our `_task_fields` partial we'd write:
     = f.check_box :done
     = f.label :done
   = link_to_remove_association "remove task", f
-```
+
+## Advanced Usage
+    
+  ```
 
 ## How it works
 
